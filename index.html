@@ -1,0 +1,143 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 1: Dasar-Dasar HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mata Kuliah Desain UI/UX Pem Web</h1>
+        <h2>Praktikum 1: Dasar-Dasar HTML</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#list">List</a></li>
+            <li><a href="#tabel">Tabel</a></li>
+            <li><a href="#form">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Contoh Div dan Gambar -->
+        <div id="main" class="active">
+            <img src="img/tes.jpeg" alt="Foto">
+        </div>
+
+        <!-- 5. Menampilkan List dan Tabel -->
+        <section id="list">
+            <h3>5. Menampilkan List dan Tabel</h3>
+            
+            <h4>a) List</h4>
+            <ol>
+                <li>Juice
+                    <ul>
+                        <li>Mangga : Rp. 5.000</li>
+                        <li>Durian : Rp. 8.000</li>
+                    </ul>
+                </li>
+                <li>Nasi Goreng
+                    <ul>
+                        <li>Nasi Goreng Biasa : Rp. 12.000</li>
+                        <li>Nasi Goreng Spesial : Rp. 15.000</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="tabel">
+            <h4>b) Table - Informasi Jenjang Pendidikan</h4>
+            <p>Tabel informasi jenjang pendidikan yang ditempuh mulai dari SD sampai kuliah di program studi TI STT Terpadu Nurul Fikri:</p>
+            
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Jenjang Pendidikan</th>
+                        <th>Nama Sekolah / Kampus</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>SD</td>
+                        <td>SD Negeri 01 Contoh</td>
+                        <td>2008 - 2014</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SMP</td>
+                        <td>SMP Negeri 02 Contoh</td>
+                        <td>2014 - 2017</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SMA</td>
+                        <td>SMA Negeri 03 Contoh</td>
+                        <td>2017 - 2020</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Kuliah (S1)</td>
+                        <td>Program Studi Teknik Informatika<br>STT Terpadu Nurul Fikri</td>
+                        <td>2020 - Sekarang</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 6. Form -->
+        <section id="form">
+            <h3>6. Form</h3>
+            <form>
+                <input type="text" name="anak" placeholder="Nama Anak" />
+                <br><br>
+                <input type="number" name="umur" min="0" max="5" placeholder="Masukkan umur Balita" />
+                <br><br>
+                <textarea name="deskripsi" placeholder="Tulis Deskripsi Anak Anda"></textarea>
+                <br><br>
+                <input type="submit" value="Kirim" />
+            </form>
+        </section>
+
+        <!-- Contoh Elemen Semantic HTML5 -->
+        <article>
+            <header>
+                <h3>Contoh Artikel</h3>
+                <p>Published: <time datetime="2024-10-09">9 Oktober 2024</time></p>
+            </header>
+            <p>Ini adalah contoh penggunaan elemen semantic HTML5 seperti article, section, aside, dan footer.</p>
+            
+            <aside>
+                <p>Catatan samping: Elemen semantic membantu struktur dokumen lebih bermakna.</p>
+            </aside>
+        </article>
+
+        <section>
+            <h3>Section Lainnya</h3>
+            <ul>
+                <li>Education</li>
+                <li>Entertainment</li>
+                <li>Family</li>
+                <li>Games</li>
+                <li>News and Weather</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024 - Program Studi TI STT Terpadu Nurul Fikri</p>
+        <nav>
+            <a href="#">Credits</a> -
+            <a href="#">Terms of Service</a> -
+            <a href="#">Blog Index</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
+```
